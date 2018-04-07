@@ -215,6 +215,7 @@ Tasks given and method for completion:
 
     fix OAuth to work with hosted Application
         Google wont allow the IP address to make redirects so we need to set up the host name address to be usable.
+        go to http://www.hcidata.info/host2ip.cgi to get your host name by entering your public IP address Udacity gave you.
         open apache configbfile sudo nano /etc/apache2/sites-available/catalog.conf
         below the ServerAdmin paste ServerAlias YOURHOSTNAME
         make sure the virtual host is enabled sudo a2ensite catalog
