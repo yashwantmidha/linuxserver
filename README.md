@@ -1,4 +1,7 @@
 Linux-Server
+User-midha
+password-yash
+
 See project live at: link Notes for reviewer:
     public Ip: 52.66.66.20
     SSH PORT: 2200
