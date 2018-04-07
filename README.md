@@ -83,7 +83,7 @@ Tasks given and method for completion:
         Allow HTTP on port 80sudo ufw allow 80/tcp
         Allow NTP on port 123sudo ufw allow 123/udp
         Turn on firewallsudo ufw enable
-
+ 
     Configure the local timezone to UTC
         run sudo dpkg-reconfigure tzdata from prompt: select none of the above. Then select UTC.
 
